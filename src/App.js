@@ -1,24 +1,27 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Header from "./Header";
+import PassingEventArguments from "./PassingEventArguments";
+import Parent from "./Parent";
+// import Centercop from "./Centercop";
+// import Food_List from "./Food_List";
+// import Center_layout from "./Center_layout";
+// import FavoriteColor from "./FavoriteColor";
+// import Car from "./Car";
+// import Com_01 from "./Com_01";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header></Header>
+      {/*<Centercop></Centercop>*/}
+      {/*  <Center_layout></Center_layout>*/}
+      {/*  <FavoriteColor></FavoriteColor>*/}
+      {/*  <Car></Car>*/}
+      {/*<Com_01></Com_01>*/}
+      {/*  <PassingEventArguments></PassingEventArguments>*/}
+        <Parent></Parent>
+    </>
   );
 }
 
